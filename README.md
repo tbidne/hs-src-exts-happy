@@ -2,13 +2,13 @@
 
 `haskell-src-exts-1.23.1` fails to build with `happy-2.2.1`, though it builds with `happy-2.2`. For example:
 
-##### Building with cabal.good.project, with an old index-state that chooses `happy-2.2`.
+##### Building with cabal.good.project, `happy-2.2`.
 ```
 $ cabal build --project-file cabal.good.project
 <success>
 ```
 
-##### Building with cabal.good.project, with a new index-state that chooses `happy-2.2.1`.
+##### Building with cabal.good.project, `happy-2.2.1`.
 ```
 $ cabal build --project-file cabal.bad.project
 ...
