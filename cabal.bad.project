@@ -1,0 +1,8 @@
+index-state: 2026-04-06T22:05:45Z
+
+packages: .
+
+-- Sadly this does not do what we want i.e. we want haskell-src-exts to choose
+-- happy < 2.2.1 for haskell-src-exts' build-tool-depends, but apparently
+-- this does not do that.
+constraints: happy <2.2.1
